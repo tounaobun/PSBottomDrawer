@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F52ACB225C56CC200D1308A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACB125C56CC200D1308A /* AppDelegate.m */; };
+		1F52ACB525C56CC200D1308A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACB425C56CC200D1308A /* SceneDelegate.m */; };
+		1F52ACB825C56CC200D1308A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACB725C56CC200D1308A /* ViewController.m */; };
+		1F52ACBB25C56CC200D1308A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F52ACB925C56CC200D1308A /* Main.storyboard */; };
+		1F52ACBD25C56CC600D1308A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F52ACBC25C56CC600D1308A /* Assets.xcassets */; };
+		1F52ACC025C56CC600D1308A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F52ACBE25C56CC600D1308A /* LaunchScreen.storyboard */; };
+		1F52ACC325C56CC600D1308A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACC225C56CC600D1308A /* main.m */; };
+		1F52ACCD25C56CC700D1308A /* PSBottomDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACCC25C56CC700D1308A /* PSBottomDrawerTests.m */; };
+		1F52ACD825C56CC700D1308A /* PSBottomDrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACD725C56CC700D1308A /* PSBottomDrawerUITests.m */; };
+		1F52ACEA25C56CDB00D1308A /* PSBottomDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACE925C56CDB00D1308A /* PSBottomDrawer.m */; };
+		1F52ACF025C56D7300D1308A /* PSBottomListDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52ACEE25C56D7300D1308A /* PSBottomListDrawer.m */; };
+		1F52AD0625C56F6800D1308A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52AD0425C56F6800D1308A /* UIView+Frame.m */; };
+		2AFF1C865299589913700EDD /* Pods_PSBottomDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE570A9A8F50C570B41B6B3B /* Pods_PSBottomDrawer.framework */; };
+		A04E6D395197B708F63952C4 /* Pods_PSBottomDrawerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BD8474D96D99FADC358711 /* Pods_PSBottomDrawerTests.framework */; };
+		A1841ACC70D9E14D1A7274B3 /* Pods_PSBottomDrawer_PSBottomDrawerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C756D9767DABA7D54D10D0 /* Pods_PSBottomDrawer_PSBottomDrawerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F52ACC925C56CC700D1308A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F52ACA525C56CC200D1308A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F52ACAC25C56CC200D1308A;
+			remoteInfo = PSBottomDrawer;
+		};
+		1F52ACD425C56CC700D1308A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F52ACA525C56CC200D1308A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F52ACAC25C56CC200D1308A;
+			remoteInfo = PSBottomDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F52ACAD25C56CC200D1308A /* PSBottomDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSBottomDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F52ACB025C56CC200D1308A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F52ACB125C56CC200D1308A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F52ACB325C56CC200D1308A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1F52ACB425C56CC200D1308A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1F52ACB625C56CC200D1308A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F52ACB725C56CC200D1308A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F52ACBA25C56CC200D1308A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F52ACBC25C56CC600D1308A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F52ACBF25C56CC600D1308A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F52ACC125C56CC600D1308A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F52ACC225C56CC600D1308A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F52ACC825C56CC700D1308A /* PSBottomDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSBottomDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F52ACCC25C56CC700D1308A /* PSBottomDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSBottomDrawerTests.m; sourceTree = "<group>"; };
+		1F52ACCE25C56CC700D1308A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F52ACD325C56CC700D1308A /* PSBottomDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSBottomDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F52ACD725C56CC700D1308A /* PSBottomDrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSBottomDrawerUITests.m; sourceTree = "<group>"; };
+		1F52ACD925C56CC700D1308A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F52ACE825C56CDB00D1308A /* PSBottomDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSBottomDrawer.h; sourceTree = "<group>"; };
+		1F52ACE925C56CDB00D1308A /* PSBottomDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSBottomDrawer.m; sourceTree = "<group>"; };
+		1F52ACEE25C56D7300D1308A /* PSBottomListDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSBottomListDrawer.m; sourceTree = "<group>"; };
+		1F52ACEF25C56D7300D1308A /* PSBottomListDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSBottomListDrawer.h; sourceTree = "<group>"; };
+		1F52AD0425C56F6800D1308A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1F52AD0525C56F6800D1308A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6D7587DADF46E300B689835E /* Pods-PSBottomDrawer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBottomDrawer.debug.xcconfig"; path = "Target Support Files/Pods-PSBottomDrawer/Pods-PSBottomDrawer.debug.xcconfig"; sourceTree = "<group>"; };
+		90A84193ECB50FD235FDC5B3 /* Pods-PSBottomDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBottomDrawer.release.xcconfig"; path = "Target Support Files/Pods-PSBottomDrawer/Pods-PSBottomDrawer.release.xcconfig"; sourceTree = "<group>"; };
+		97767042163D12971C457DE5 /* Pods-PSBottomDrawerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBottomDrawerTests.debug.xcconfig"; path = "Target Support Files/Pods-PSBottomDrawerTests/Pods-PSBottomDrawerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFB1F4A91CCDF468D966F5ED /* Pods-PSBottomDrawerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBottomDrawerTests.release.xcconfig"; path = "Target Support Files/Pods-PSBottomDrawerTests/Pods-PSBottomDrawerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2BD8474D96D99FADC358711 /* Pods_PSBottomDrawerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSBottomDrawerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C756D9767DABA7D54D10D0 /* Pods_PSBottomDrawer_PSBottomDrawerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSBottomDrawer_PSBottomDrawerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1810B556A66EBC62450F234 /* Pods-PSBottomDrawer-PSBottomDrawerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBottomDrawer-PSBottomDrawerUITests.debug.xcconfig"; path = "Target Support Files/Pods-PSBottomDrawer-PSBottomDrawerUITests/Pods-PSBottomDrawer-PSBottomDrawerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F04EF899537151BD31F01E07 /* Pods-PSBottomDrawer-PSBottomDrawerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBottomDrawer-PSBottomDrawerUITests.release.xcconfig"; path = "Target Support Files/Pods-PSBottomDrawer-PSBottomDrawerUITests/Pods-PSBottomDrawer-PSBottomDrawerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE570A9A8F50C570B41B6B3B /* Pods_PSBottomDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSBottomDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F52ACAA25C56CC200D1308A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFF1C865299589913700EDD /* Pods_PSBottomDrawer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F52ACC525C56CC700D1308A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04E6D395197B708F63952C4 /* Pods_PSBottomDrawerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F52ACD025C56CC700D1308A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1841ACC70D9E14D1A7274B3 /* Pods_PSBottomDrawer_PSBottomDrawerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F52ACA425C56CC200D1308A = {
+			isa = PBXGroup;
+			children = (
+				1F52ACAF25C56CC200D1308A /* PSBottomDrawer */,
+				1F52ACCB25C56CC700D1308A /* PSBottomDrawerTests */,
+				1F52ACD625C56CC700D1308A /* PSBottomDrawerUITests */,
+				1F52ACAE25C56CC200D1308A /* Products */,
+				EEC7E937DD7ABE18AA154B7E /* Pods */,
+				DB9A4F0073D4AE17531A677C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F52ACAE25C56CC200D1308A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F52ACAD25C56CC200D1308A /* PSBottomDrawer.app */,
+				1F52ACC825C56CC700D1308A /* PSBottomDrawerTests.xctest */,
+				1F52ACD325C56CC700D1308A /* PSBottomDrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F52ACAF25C56CC200D1308A /* PSBottomDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				1F52AD0525C56F6800D1308A /* UIView+Frame.h */,
+				1F52AD0425C56F6800D1308A /* UIView+Frame.m */,
+				1F52ACE825C56CDB00D1308A /* PSBottomDrawer.h */,
+				1F52ACE925C56CDB00D1308A /* PSBottomDrawer.m */,
+				1F52ACEF25C56D7300D1308A /* PSBottomListDrawer.h */,
+				1F52ACEE25C56D7300D1308A /* PSBottomListDrawer.m */,
+				1F52ACB025C56CC200D1308A /* AppDelegate.h */,
+				1F52ACB125C56CC200D1308A /* AppDelegate.m */,
+				1F52ACB325C56CC200D1308A /* SceneDelegate.h */,
+				1F52ACB425C56CC200D1308A /* SceneDelegate.m */,
+				1F52ACB625C56CC200D1308A /* ViewController.h */,
+				1F52ACB725C56CC200D1308A /* ViewController.m */,
+				1F52ACB925C56CC200D1308A /* Main.storyboard */,
+				1F52ACBC25C56CC600D1308A /* Assets.xcassets */,
+				1F52ACBE25C56CC600D1308A /* LaunchScreen.storyboard */,
+				1F52ACC125C56CC600D1308A /* Info.plist */,
+				1F52ACC225C56CC600D1308A /* main.m */,
+			);
+			path = PSBottomDrawer;
+			sourceTree = "<group>";
+		};
+		1F52ACCB25C56CC700D1308A /* PSBottomDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F52ACCC25C56CC700D1308A /* PSBottomDrawerTests.m */,
+				1F52ACCE25C56CC700D1308A /* Info.plist */,
+			);
+			path = PSBottomDrawerTests;
+			sourceTree = "<group>";
+		};
+		1F52ACD625C56CC700D1308A /* PSBottomDrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F52ACD725C56CC700D1308A /* PSBottomDrawerUITests.m */,
+				1F52ACD925C56CC700D1308A /* Info.plist */,
+			);
+			path = PSBottomDrawerUITests;
+			sourceTree = "<group>";
+		};
+		DB9A4F0073D4AE17531A677C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE570A9A8F50C570B41B6B3B /* Pods_PSBottomDrawer.framework */,
+				D7C756D9767DABA7D54D10D0 /* Pods_PSBottomDrawer_PSBottomDrawerUITests.framework */,
+				D2BD8474D96D99FADC358711 /* Pods_PSBottomDrawerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEC7E937DD7ABE18AA154B7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D7587DADF46E300B689835E /* Pods-PSBottomDrawer.debug.xcconfig */,
+				90A84193ECB50FD235FDC5B3 /* Pods-PSBottomDrawer.release.xcconfig */,
+				E1810B556A66EBC62450F234 /* Pods-PSBottomDrawer-PSBottomDrawerUITests.debug.xcconfig */,
+				F04EF899537151BD31F01E07 /* Pods-PSBottomDrawer-PSBottomDrawerUITests.release.xcconfig */,
+				97767042163D12971C457DE5 /* Pods-PSBottomDrawerTests.debug.xcconfig */,
+				CFB1F4A91CCDF468D966F5ED /* Pods-PSBottomDrawerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F52ACAC25C56CC200D1308A /* PSBottomDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F52ACDC25C56CC700D1308A /* Build configuration list for PBXNativeTarget "PSBottomDrawer" */;
+			buildPhases = (
+				851C73E078A822A1F4034BAC /* [CP] Check Pods Manifest.lock */,
+				1F52ACA925C56CC200D1308A /* Sources */,
+				1F52ACAA25C56CC200D1308A /* Frameworks */,
+				1F52ACAB25C56CC200D1308A /* Resources */,
+				394FD49D3372148530049DFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSBottomDrawer;
+			productName = PSBottomDrawer;
+			productReference = 1F52ACAD25C56CC200D1308A /* PSBottomDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F52ACC725C56CC700D1308A /* PSBottomDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F52ACDF25C56CC700D1308A /* Build configuration list for PBXNativeTarget "PSBottomDrawerTests" */;
+			buildPhases = (
+				B98DB9AAE59DA274F7112317 /* [CP] Check Pods Manifest.lock */,
+				1F52ACC425C56CC700D1308A /* Sources */,
+				1F52ACC525C56CC700D1308A /* Frameworks */,
+				1F52ACC625C56CC700D1308A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F52ACCA25C56CC700D1308A /* PBXTargetDependency */,
+			);
+			name = PSBottomDrawerTests;
+			productName = PSBottomDrawerTests;
+			productReference = 1F52ACC825C56CC700D1308A /* PSBottomDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F52ACD225C56CC700D1308A /* PSBottomDrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F52ACE225C56CC700D1308A /* Build configuration list for PBXNativeTarget "PSBottomDrawerUITests" */;
+			buildPhases = (
+				E88468455EDBBACFC4261460 /* [CP] Check Pods Manifest.lock */,
+				1F52ACCF25C56CC700D1308A /* Sources */,
+				1F52ACD025C56CC700D1308A /* Frameworks */,
+				1F52ACD125C56CC700D1308A /* Resources */,
+				34ECF4DBD84EA458F121D66A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F52ACD525C56CC700D1308A /* PBXTargetDependency */,
+			);
+			name = PSBottomDrawerUITests;
+			productName = PSBottomDrawerUITests;
+			productReference = 1F52ACD325C56CC700D1308A /* PSBottomDrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F52ACA525C56CC200D1308A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1F52ACAC25C56CC200D1308A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1F52ACC725C56CC700D1308A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1F52ACAC25C56CC200D1308A;
+					};
+					1F52ACD225C56CC700D1308A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1F52ACAC25C56CC200D1308A;
+					};
+				};
+			};
+			buildConfigurationList = 1F52ACA825C56CC200D1308A /* Build configuration list for PBXProject "PSBottomDrawer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F52ACA425C56CC200D1308A;
+			productRefGroup = 1F52ACAE25C56CC200D1308A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F52ACAC25C56CC200D1308A /* PSBottomDrawer */,
+				1F52ACC725C56CC700D1308A /* PSBottomDrawerTests */,
+				1F52ACD225C56CC700D1308A /* PSBottomDrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F52ACAB25C56CC200D1308A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F52ACC025C56CC600D1308A /* LaunchScreen.storyboard in Resources */,
+				1F52ACBD25C56CC600D1308A /* Assets.xcassets in Resources */,
+				1F52ACBB25C56CC200D1308A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F52ACC625C56CC700D1308A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F52ACD125C56CC700D1308A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34ECF4DBD84EA458F121D66A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSBottomDrawer-PSBottomDrawerUITests/Pods-PSBottomDrawer-PSBottomDrawerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSBottomDrawer-PSBottomDrawerUITests/Pods-PSBottomDrawer-PSBottomDrawerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PSBottomDrawer-PSBottomDrawerUITests/Pods-PSBottomDrawer-PSBottomDrawerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		394FD49D3372148530049DFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSBottomDrawer/Pods-PSBottomDrawer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSBottomDrawer/Pods-PSBottomDrawer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PSBottomDrawer/Pods-PSBottomDrawer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851C73E078A822A1F4034BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSBottomDrawer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98DB9AAE59DA274F7112317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSBottomDrawerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88468455EDBBACFC4261460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSBottomDrawer-PSBottomDrawerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F52ACA925C56CC200D1308A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F52ACF025C56D7300D1308A /* PSBottomListDrawer.m in Sources */,
+				1F52ACEA25C56CDB00D1308A /* PSBottomDrawer.m in Sources */,
+				1F52ACB825C56CC200D1308A /* ViewController.m in Sources */,
+				1F52AD0625C56F6800D1308A /* UIView+Frame.m in Sources */,
+				1F52ACB225C56CC200D1308A /* AppDelegate.m in Sources */,
+				1F52ACC325C56CC600D1308A /* main.m in Sources */,
+				1F52ACB525C56CC200D1308A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F52ACC425C56CC700D1308A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F52ACCD25C56CC700D1308A /* PSBottomDrawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F52ACCF25C56CC700D1308A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F52ACD825C56CC700D1308A /* PSBottomDrawerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F52ACCA25C56CC700D1308A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F52ACAC25C56CC200D1308A /* PSBottomDrawer */;
+			targetProxy = 1F52ACC925C56CC700D1308A /* PBXContainerItemProxy */;
+		};
+		1F52ACD525C56CC700D1308A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F52ACAC25C56CC200D1308A /* PSBottomDrawer */;
+			targetProxy = 1F52ACD425C56CC700D1308A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F52ACB925C56CC200D1308A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F52ACBA25C56CC200D1308A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F52ACBE25C56CC600D1308A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F52ACBF25C56CC600D1308A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F52ACDA25C56CC700D1308A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F52ACDB25C56CC700D1308A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F52ACDD25C56CC700D1308A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7587DADF46E300B689835E /* Pods-PSBottomDrawer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSBottomDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.drawer.PSBottomDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F52ACDE25C56CC700D1308A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A84193ECB50FD235FDC5B3 /* Pods-PSBottomDrawer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSBottomDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.drawer.PSBottomDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F52ACE025C56CC700D1308A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97767042163D12971C457DE5 /* Pods-PSBottomDrawerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSBottomDrawerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.drawer.PSBottomDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSBottomDrawer.app/PSBottomDrawer";
+			};
+			name = Debug;
+		};
+		1F52ACE125C56CC700D1308A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB1F4A91CCDF468D966F5ED /* Pods-PSBottomDrawerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSBottomDrawerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.drawer.PSBottomDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSBottomDrawer.app/PSBottomDrawer";
+			};
+			name = Release;
+		};
+		1F52ACE325C56CC700D1308A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1810B556A66EBC62450F234 /* Pods-PSBottomDrawer-PSBottomDrawerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSBottomDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.drawer.PSBottomDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PSBottomDrawer;
+			};
+			name = Debug;
+		};
+		1F52ACE425C56CC700D1308A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04EF899537151BD31F01E07 /* Pods-PSBottomDrawer-PSBottomDrawerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSBottomDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.drawer.PSBottomDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PSBottomDrawer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F52ACA825C56CC200D1308A /* Build configuration list for PBXProject "PSBottomDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F52ACDA25C56CC700D1308A /* Debug */,
+				1F52ACDB25C56CC700D1308A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F52ACDC25C56CC700D1308A /* Build configuration list for PBXNativeTarget "PSBottomDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F52ACDD25C56CC700D1308A /* Debug */,
+				1F52ACDE25C56CC700D1308A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F52ACDF25C56CC700D1308A /* Build configuration list for PBXNativeTarget "PSBottomDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F52ACE025C56CC700D1308A /* Debug */,
+				1F52ACE125C56CC700D1308A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F52ACE225C56CC700D1308A /* Build configuration list for PBXNativeTarget "PSBottomDrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F52ACE325C56CC700D1308A /* Debug */,
+				1F52ACE425C56CC700D1308A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F52ACA525C56CC200D1308A /* Project object */;
+}

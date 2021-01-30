@@ -1,0 +1,6 @@
+framework module Pods_PSBottomDrawer {
+  umbrella header "Pods-PSBottomDrawer-umbrella.h"
+
+  export *
+  module * { export * }
+}
